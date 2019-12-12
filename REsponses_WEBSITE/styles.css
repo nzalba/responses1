@@ -1,0 +1,71 @@
+/* Responses website */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica-light;
+	font-weight: light;
+	margin: 0;
+	padding: 0.5em;
+	background: darkslategrey;
+	color: #282828;
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+main {
+	max-width: 35em;
+	margin: 5em auto;
+	border-left: 2px solid white;
+	padding: 0 0.5em;
+	perspective: 20em;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 2em;
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 1em;
+	color: white;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+
+
+footer {
+	background: white;
+	margin: -0.5em;
+	padding: 1em 0.5em 3em 0.5em;
+	color: white;
+	text-align: left;
+}
+
+
+ p {
+  writing-mode: vertical-rl;
+}
+img {
+  position: fixed;
+  left: 900px;
+  top: 105px;
+  z-index: 1;
+}
+
+
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
